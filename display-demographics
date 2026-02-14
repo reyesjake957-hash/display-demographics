@@ -1,0 +1,37 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Display program header
+        Console.WriteLine("Demographics Program by [Your Name]");
+        Console.WriteLine();
+
+        // Define variables and assign example values
+        string studentID = "198434242";
+        string fullName = "Jake Niño S. Reyes";
+        string nickName = "Jake";
+        string gender = "Male";
+        string yearLevel = "2nd Year";
+        string homeLocation = "Sitio Plus Inayawan Cebu City";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNo = "09278633741";
+        string personalEmail = "reyesjake957@gmail.com";
+
+        // Display the information with labels
+        Console.WriteLine("Student ID      : " + studentID);
+        Console.WriteLine("Full Name       : " + fullName);
+        Console.WriteLine("Nick Name       : " + nickName);
+        Console.WriteLine("Gender          : " + gender);
+        Console.WriteLine("Year Level      : " + yearLevel);
+        Console.WriteLine("Home Location   : " + homeLocation);
+        Console.WriteLine("Course          : " + course);
+        Console.WriteLine("Mobile No.      : " + mobileNo);
+        Console.WriteLine("Personal Email  : " + personalEmail);
+
+        // End program
+        Console.ReadLine();
+    }
+}
+
